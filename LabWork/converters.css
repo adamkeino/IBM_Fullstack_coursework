@@ -1,0 +1,20 @@
+body {
+    margin: 10px;
+    background-color: bisque;
+    font-family: arial;
+}
+#home {
+    margin-top: -1;
+    margin-left: -1;
+    margin-right: -1;
+    background-color: rgb(157, 0, 255);
+    padding-bottom: 1cm;
+}
+header {
+    font-size: 50px;
+    text-align: left;
+}
+button {
+    cursor: pointer;
+    padding: 5px;
+}
