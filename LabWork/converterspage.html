@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Unit Conversions</title>
         <link rel="stylesheet" href="converters.css">
+        <script src="converters_script.js"></script>
     </head>
     <body>
         <section id="home">
@@ -18,7 +19,7 @@
         <div id="all-conversion-sections">
             <section id="temperature">
                 <div id="tmp">
-                    <h1>Temperature Conversion</h1>
+                
                     <figure>
                         <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" alt="thermometer" width="200" height="200">
                         <figcaption>Celsius to Fahrenheit Conversion</figcaption>
@@ -28,7 +29,7 @@
                             <legend>Temperature</legend>
                             <label for="Temperature">Celsius</label> <br/>
                             <input type="number" id="c" placeholder="Celcius temp"> <br/>
-                            <button id="temperaturE">Convert</button><br/>
+                            <button id="temperaturE" onclick="tempconv()">Convert</button><br/>
                             <input type="number" id="f" placeholder="Fahrenheit temp"> <br/>
                             <label for="Temperature">Fahrenheit</label>
                         </fieldset>
@@ -40,10 +41,10 @@
             </section>
             <section id="weight">
                 <div id="wgt">
-                    <h1>Weight Conversion</h1>
+
                     <figure>
                         <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png" alt="figure" width="200" height="200"> 
-                        <figcaption>Celsius to Fahrenheit Conversion</figcaption>
+                        <figcaption>Kilograms to Pounds Conversion</figcaption>
                     </figure>
                     <article>
                         <fieldset>
@@ -62,7 +63,7 @@
             </section>
             <section id="distance">
                 <div id="dst">
-                    <h1>Distance Conversion</h1>
+                  
                     <figure>
                         <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png" alt="distance" width="200" height="200"> 
                         <figcaption>Kilometers to Miles Conversion</figcaption>
@@ -89,6 +90,6 @@
                 home
             </a>
         </div>
-        <footer>Learn more about HTML as a part of the IBM Fullstack Cloud Developer Certification</footer>
+        <footer>All rights reserved &#183; Adam Keino &#169; 2024</footer>
     </body>
 </html>

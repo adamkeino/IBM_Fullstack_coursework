@@ -1,6 +1,6 @@
 body {
     margin: 10px;
-    background-color: bisque;
+    background-color: white;
     font-family: arial;
 }
 #home {
@@ -17,4 +17,30 @@ header {
 button {
     cursor: pointer;
     padding: 5px;
+}
+#tmp, #wgt, #dst {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightblue;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 25px;
+    border-top-width: 20px;
+    background-color: bisque;
+}
+#tmp {
+    border-top-color: green;
+}
+#wgt {
+    border-top-color: orange;
+}
+#dst {
+    border-top-color: cyan;
+}
+legend {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
 }
