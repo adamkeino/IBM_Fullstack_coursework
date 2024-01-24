@@ -1,0 +1,26 @@
+Welcome to Connecting React to External Services. After watching this video, you will be able
+to: explain how to connect to an external server
+from a React page and describe how to use asynchronous calls
+to an external server. A router can connect to an external server
+to do one of many actions, including GET to obtain information, POST to send information,
+UPDATE to change information, and DELETE to remove information. Most requests to external servers are blocking. To make the call asynchronous, you can use
+promises. This is an example of a GET request. Here, a component with a state, user, is initially
+set to “None Logged In.” With the componentDidMount event, you connect
+to a server through an axios request. When the promise is fulfilled, you parse the
+response and extract the data from it to change user to have the same name as its value. You can send data to the server with a POST
+request and receive a response. In this example, an Express server takes a POST request at endpoint /user, extracts
+the name and gender sent as query parameters, creates a JavaScript Object Notation (JSON)
+object, and pushes that into the usercollection array. Another GET request at endpoint /user is where
+all the objects in the usercollection destination are sent as the response. This server uses the CORS middleware to allow
+cross-origin requests to the server. A client from anywhere can connect to this
+Express server. Now you will see how a React client can connect
+to this server. Here, you send data to the server with a POST
+request and receive a response. The React root component has two input components
+and one button. It has a state, completionStatus, which is
+initially empty. When the user adds data in the name and gender
+text boxes and clicks the button, the postDataToServer method is called. This sends the data to the server and updates
+the response from the server to the component's state completionStatus. In the same way, you can send UPDATE and DELETE
+requests to the server. In this video you learned that: You can use promises to make calls to an external
+server asynchronous. With middleware, you can enable a client from
+anywhere to connect to an Express server. You can receive and send information from
+a React client to an external server with GET, POST, UPDATE, and DELETE requests.

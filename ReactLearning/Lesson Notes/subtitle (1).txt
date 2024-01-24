@@ -1,0 +1,58 @@
+Welcome to Introduction to States. After watching this video, you will be able to: Explain what is a state in React, explain what are props in React, and compare and contrast state
+and props in a component. States allow you to change data in an application. It is defined as an object that
+helps you include key-value pairs that specify different types of data
+you want to track in the application. React components have a built-in state object. You can store property values that belong
+to the component in the state object. When the state object changes,
+the component re-renders. There are two different types of states in a React
+application — a shared state and a local state. Shared state is shared by multiple
+components and is complicated. An example of shared state is the list
+of all orders in an order application. Local state lives in a single
+component and is not used in other components. An example of local
+state is hiding and showing information. State is a plain JavaScript object used by React to represent information about
+the component’s current situation. The heart of every React component is its “state.” State determines how a
+component renders and behaves. A state allows you to create
+dynamic and interactive components. The state is an instance of the
+React Component Class that can be defined as an object with a
+set of observable properties. These control the behavior of the component. The state is managed and
+preserved in the React component. In other words, the state of
+a component is an object that holds some information that may change
+over the lifetime of the component. State is required if a React component will
+change or needs to change during user interaction. You can track the change in
+the component by using a state. This includes but is not limited
+to forms, buttons, and timers. For example, consider a simple application with a button and a counter. When the user clicks
+the button, the counter is incremented by 1. As the count changes on every click, you
+need to hold that value in the state. This code example shows how you can create a Test component that contains the state with
+attributes such as id, name, and age. The component’s render function returns
+the state attribute's name and age.​ The state that holds the attributes will
+change as per the requirement of the component. Props is short for properties, and they are
+used to pass data between React components. React’s data flow between components is
+uni-directional from parent to child only. Props are read-only components. They are objects which store
+the value of attributes of a tag and work like the HTML attributes. They are like function arguments
+that can be passed to the component. Props are immutable and cannot be
+modified from inside the component. Props should never be
+changed in a child component. If a variable gets modified during a process,
+it should belong to the component state. Props are also used to allow child components to
+access methods defined in the parent component. The state is managed in the parent component, and the child component does
+not have a state of their own. Most of your components will
+display information based on the props they receive and stay stateless. Let’s see an example of props. The example creates a class, TestComponent,
+that extends the React component. It renders props that accept the attribute name. Then, you can pass props to the Test component
+that accepts different names like John and Jill. Let’s look at the differences
+between state and props. A state can only be used
+in class components natively. In functional components, you must opt-in to
+the useState hook to include stateful features. Props, on the other hand, allow
+you to reuse the component by giving it the ability to receive data
+as input from the parent component. State is the local state of
+the component that cannot be accessed or modified outside of the component. Props, on the other hand, make components
+reusable by giving components the ability to receive data from the parent
+component in the form of props. Components can create and manage
+their own data with state, whereas they receive data from outside with props. State is used for managing data,
+while Props are used to pass data. State data can be modified by its own component but is private and cannot
+be accessed from outside. Data from props is read-only
+and cannot be modified by a component that is receiving it from outside. You can modify state with the setState( ) method, whereas props can only be passed from parent
+component to child in a unidirectional flow. In this video, you learned that state is a plain JavaScript object used by React to represent information about
+the component’s current situation. State allows you to create dynamic
+and interactive components. Any changes in the state data
+cause the re-rendering of the component to reflect the change. Props is short for properties, and they are used to pass data between React components in a
+uni-directional flow from parent to child. Components can create and manage
+their own data with state, whereas they receive data
+from outside with props.
