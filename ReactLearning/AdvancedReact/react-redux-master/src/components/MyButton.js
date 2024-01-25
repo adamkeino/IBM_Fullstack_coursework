@@ -13,7 +13,7 @@ const IncButton = ()=>{
 export const DecButton = ()=>{
     let dispatch = useDispatch();
     return (
-        <button onClick={()=>dispatch(decrement(1))}>Decrease Counter</button>
+        <button onClick={()=>dispatch(decrement(-1))}>Decrease Counter</button>
     )
 }
 

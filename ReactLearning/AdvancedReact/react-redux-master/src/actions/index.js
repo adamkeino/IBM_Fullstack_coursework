@@ -9,7 +9,7 @@ const increment = (val) => {
 const decrement = (val) => {
     return {
         type : 'DECREMENT',
-        inc : val
+        dec : val
     }
 }
 
